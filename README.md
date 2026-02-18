@@ -1,18 +1,24 @@
-# Covid_data_visualization
+# 🦠 COVID-19 Data Visualization
 
-COVID-19 Data Visualization using Python.  
-This project analyzes COVID-19 data and generates visual insights using Pandas, Matplotlib, and Seaborn.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## 📌 Features
+## 📌 Project Overview
 
-- Total COVID-19 Cases (Cumulative)
-- Total COVID-19 Deaths (Cumulative)
-- Daily New Cases
-- Top 10 Countries by Total Cases (Latest Date)
-- Correlation Heatmap
-- Automatic output folder creation
+This project analyzes COVID-19 data using Python and generates insightful visualizations such as:
+
+- 📈 Total Cases (Cumulative)
+- 💀 Total Deaths (Cumulative)
+- 📊 Daily New Cases
+- 🌍 Top 10 Countries by Total Cases
+- 🔥 Correlation Heatmap
+
+All graphs are automatically saved inside the `output/` folder.
 
 ---
 
@@ -38,15 +44,22 @@ Covid_data_visualization/
 
 ---
 
-## 🛠 Requirements
+## 🛠 Installation
 
-Install dependencies using:
+Clone the repository:
+
+```
+git clone https://github.com/Sachinnpfr/Covid_data_visualization.git
+cd Covid_data_visualization
+```
+
+Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-Or manually install:
+Or manually:
 
 ```
 pip install pandas matplotlib seaborn
@@ -56,24 +69,26 @@ pip install pandas matplotlib seaborn
 
 ## ▶️ How to Run
 
-1. Download the dataset from **Our World in Data**
-2. Place the dataset as:
+1️⃣ Download the dataset from **Our World in Data**  
+👉 https://ourworldindata.org/coronavirus  
+
+2️⃣ Place the CSV file inside:
 
 ```
 data/covid.csv
 ```
 
-3. Run the script:
+3️⃣ Run the program:
 
 ```
 python main.py
 ```
 
-All graphs will be saved inside the `output/` folder.
+All visualizations will be saved inside the `output/` folder.
 
 ---
 
-## 📷 Output Graphs
+## 📷 Output Visualizations
 
 ### 📈 Total Cases (Cumulative)
 ![Total Cases](output/total_cases.png)
@@ -94,11 +109,17 @@ All graphs will be saved inside the `output/` folder.
 
 ## 📊 Data Source
 
-Dataset: https://ourworldindata.org/coronavirus
+Dataset provided by:  
+**Our World in Data**  
+https://ourworldindata.org/coronavirus
 
 ---
 
 ## 👨‍💻 Author
 
-Sachin Jha
+**Sachin Jha**  
+GitHub: https://github.com/Sachinnpfr
 
+---
+
+⭐ If you found this project useful, consider giving it a star!
