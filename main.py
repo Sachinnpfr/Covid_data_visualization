@@ -40,13 +40,16 @@ plt.show()
 # ---------------- Graph 2: Total Deaths Over Time ----------------
 plt.figure(figsize=(10, 5))
 plt.plot(country_data["date"], country_data["total_deaths"])
-plt.title(f"Total COVID-19 Deaths in {COUNTRY}")
+
+plt.title(f"Total COVID-19 Deaths in {COUNTRY} (Cumulative)")
 plt.xlabel("Date")
-plt.ylabel("Total Deaths")
+plt.ylabel("Cumulative Deaths")
+
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig(f"{OUTPUT_FOLDER}/total_deaths.png", dpi=200)
 plt.show()
+
 
 # ---------------- Graph 3: Daily New Cases ----------------
 plt.figure(figsize=(10, 5))
@@ -86,3 +89,4 @@ plt.savefig(f"{OUTPUT_FOLDER}/heatmap.png", dpi=200)
 plt.show()
 
 print("✅ All graphs generated successfully! Check the output folder.")
+
